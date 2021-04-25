@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "playfair";
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+
+header {
+    text-align: center;
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-family: "Mclaren", cursive;
+    color: white;
+}
+
+form {
+    position: relative;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    width: 400px;
+    height: 160px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #ccc;
+    resize: none;
+}
+
+form input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 25px;
+    width: 380px;
+}
+
+form button {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 20px;
+    bottom: -20px;
+    border-radius: 50%;
+    background: #f5ba13;
+    border: none;
+    float: right;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+}
+
+footer p {
+    color: rgba(12, 18, 70, 0.993);
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 294px;
+    margin: 16px;
+    min-height: 150px;
+    float: left;
+    position: relative;
+}
+
+.note h1 {
+    font-size: 25px;
+    margin-bottom: 6px;
+    font-weight: bolder;
+    opacity: 70%;
+}
+
+.note p {
+    font-size: 21px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button {
+    position: absolute;
+    float: right;
+    right: 20px;
+    bottom: -20px;
+    color: black;
+    background-color: yellowgreen;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 65%;
+}
